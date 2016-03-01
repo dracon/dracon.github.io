@@ -8,6 +8,7 @@ body {
   padding: 0;
 }
 
+
 header#main-header .navbar{
   padding: 0 2% !important;
 }
@@ -22,6 +23,9 @@ section#main-body {
   background: rgba(20,39,200,0.5) url("../images/stars-background.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;
+  &.no-bg{
+    background: rgba(20,39,200,0.2);
+  }
 }
 
 
@@ -83,4 +87,3 @@ ul.slides {
 
   }
 }
-
