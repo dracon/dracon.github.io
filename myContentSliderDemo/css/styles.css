@@ -19,6 +19,8 @@ section#main-body {
   background: rgba(20, 39, 200, 0.5) url("../images/stars-background.jpg") no-repeat;
   background-size: cover;
   overflow: hidden; }
+  section#main-body.no-bg {
+    background: rgba(20, 39, 200, 0.2) none; }
 
 footer#main-footer {
   position: absolute;

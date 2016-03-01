@@ -24,7 +24,7 @@ section#main-body {
   background-size: cover;
   overflow: hidden;
   &.no-bg{
-    background: rgba(20,39,200,0.2);
+    background: rgba(20,39,200,0.2) none;
   }
 }
 
